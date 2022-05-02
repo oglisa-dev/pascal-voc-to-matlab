@@ -17,6 +17,19 @@ Table has six columns:
 5. size
 6. objects
 
+__Filename__ - the relative path of the image which is annotated (string column)
+
+__Path__ - an absolute path of the output file after annotations (string column)
+
+__Source__ - struct column (matlab struct with single field _datastore_ which is string representing name of datastore)
+
+__Segmented__ 
+
+__Size__ - column representing size of corresponding input image (vector: [width height channels])
+
+__Objects__ - column representing objects in input image (cell array with single element that is struct array with fields {name,pose,truncated,difficulty,bndbox}).
+Bndbox is also struct with fields {xmin,ymin,xmax,ymax}
+
 
 ## How to use
 
