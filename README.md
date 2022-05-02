@@ -7,7 +7,15 @@ Resulting MATLAB table will have N rows where N is equal to number of processed 
 ## About
 
 Use these function to convert xml files (pascalVOC format) in more suitable matlab table. 
-Resulting matlab table size is Nx6, where N is equal to number of xml files (every xml file corresponds to single image in dataset).  
+
+Resulting matlab table size is __Nx6__, where _N_ is equal to number of xml files (every xml file corresponds to single image in dataset).  
+Table has six columns:
+1. filename 
+2. path 
+3. source
+4. segmented
+5. size
+6. objects
 
 
 ## How to use
