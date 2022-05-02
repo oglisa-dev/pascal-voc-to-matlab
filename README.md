@@ -8,3 +8,7 @@ Resulting MATLAB table will have N rows where N is equal to number of processed 
 
 
 ## How to use
+If you want to convert single xml file (pascalVOC format) to matlab table, you should use __convertPascalVOC2Table__ function. 
+This function expects two input arguments:
+1. XML file path (required)
+2. logging flag (optional) - used to log (print) transformation steps and details about processed xml file (filename,path,size,objects...)
