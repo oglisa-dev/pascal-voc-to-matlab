@@ -27,8 +27,7 @@ __Segmented__
 
 __Size__ - column representing size of corresponding input image (vector: [width height channels])
 
-__Objects__ - column representing objects in input image (cell array with single element that is struct array with fields {name,pose,truncated,difficulty,bndbox}).
-Bndbox is also struct with fields {xmin,ymin,xmax,ymax}
+__Objects__ - column representing objects in input image (cell array with single element that is struct array with fields {name,pose,truncated,difficulty,bndbox}). Size of struct array is M, where M is equal to numbers of objects in input image. Bndbox is also struct with fields {xmin,ymin,xmax,ymax}
 
 
 ## How to use
