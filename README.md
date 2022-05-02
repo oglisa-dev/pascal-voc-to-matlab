@@ -12,3 +12,9 @@ If you want to convert single xml file (pascalVOC format) to matlab table, you s
 This function expects two input arguments:
 1. XML file path (required)
 2. logging flag (optional) - used to log (print) transformation steps and details about processed xml file (filename,path,size,objects...)
+
+
+If you have multiple xml files stored in a single folder/dir (which is most likely the case) and want to convert them all to joined matlab table, use __convertAllFilesPascalVOC2Table__ function. 
+This function expects two input arguments:
+1. Folder/directory path (required) - folder/dir where xml files are stored
+2. logging flag (optional) - same as in function above 
